@@ -1,4 +1,13 @@
 import {css} from 'styled-components';
+export const imageZoomEffect= css `
+
+img{
+    transition: 0.8s ease-in-out;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+`;
 export const TitleStyles= css`
 .title{
     text-align:center;
@@ -12,6 +21,7 @@ export const TitleStyles= css`
             color:#AD0202;
         }
     }
+
     .yellow{
         color: #F46A06;
     }
@@ -25,7 +35,7 @@ export const TitleStyles= css`
 @media screen and (min-width:260px) and (max-width:1080px){
 .title {
     gap:1rem;
-    h2{
+    h1{
         font-size: 2rem;
     }
     p{
@@ -35,11 +45,3 @@ export const TitleStyles= css`
 }
 `;
 
-export const imageZoomEffect= css`
-img{
-    transition:0ms.8s ease-in-out;
-    &:hover{
-        transform: scale(1.2);
-    }
-}
-`

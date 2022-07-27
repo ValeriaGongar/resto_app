@@ -64,6 +64,9 @@ ${TitleStyles};
     text-align: center;
     line-height: 2rem;
     font-size: 1.2rem;
+      span{
+          color:#AD0202 ;
+      }
    
   }
   button{
