@@ -12,8 +12,8 @@ import Testimonials from './components/Testimonials'
 export default function App() {
   
   return <>
-  <ScrollToTop/>
   <NavBar/>
+  <ScrollToTop/>
   <Hero/>
   <Services/>
   <Portfolio/>

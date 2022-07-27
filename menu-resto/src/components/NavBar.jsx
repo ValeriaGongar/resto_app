@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import foodYummy from '../assets/FoodYummy.png'
+import foodYummy from '../assets/emulsify04.svg'
 export default function NavBar() {
   return <Nav>
     <div className = 'brand'>
@@ -25,7 +25,7 @@ export default function NavBar() {
         </a>
         </li>
         <li><a href= "#products" > 
-        Ptoducts 
+        Products 
         </a>
         </li>
         <li><a href= "newsletter"> 
@@ -56,18 +56,18 @@ padding: 0 4vw;
   gap:2rem;
   li {
     a{
-      color: #fc4958;
+      color: #AD0202;
       font-weight: 600;
       text-decoration: none;
       text-transform: uppercase;
       letter-spacing: 0.2rem;
       transition: 0.3s ease-in-out;
       &:hover{
-        color:#f9c74f;
+        color:#E2660C ;
       }
     }
     .active{
-      color:#f9c74f;
+      color:#E2660C  ;
     }
   }
 }
