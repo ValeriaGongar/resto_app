@@ -20,7 +20,7 @@ export default function Hero() {
           <em>
             We deserve good, clean and fair food. Save biodiversity Save the planet!
           </em>
-          <button> ORDENA AHORA</button>
+          <button> ORDER NOW</button>
 
         </div>
       </div>
