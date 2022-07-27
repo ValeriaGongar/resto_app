@@ -60,7 +60,7 @@ position: relative;
   .title{
     position:absolute;
     top: -2rem;
-    left: 22%;
+    left: 20%;
     padding:0 2rem;
     background-color: white;
   }
