@@ -1,0 +1,36 @@
+.products {
+display:grid;
+grid-template-columns: repeat (4, 1fr);
+gap: 3rem;
+margin-top: 3rem;
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    justify-content:center;
+    align-items: center;
+    h3{
+        color:#ED8032;
+    }
+    p{
+        text-align:center;
+        font-size: 1.1rem;
+        line-height: 2rem;
+        letter-spacing: 0.1rem;
+    }
+    ${imageZoomEffect};
+    .image{
+        max-height: 20rem;
+        overflow: hidden;
+        border-radius: 1rem;
+        img{
+            height:20rem;
+            width:15rem;
+            object-fit:cover;
+        }
+    }
+    button {
+        
+    }
+}
+}
