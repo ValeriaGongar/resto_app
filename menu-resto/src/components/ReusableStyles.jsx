@@ -36,7 +36,7 @@ export const TitleStyles= css`
 .title {
     gap:1rem;
     h1{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     p{
         padding:0 1vw;

@@ -72,10 +72,11 @@ ${TitleStyles};
           color:#ED8032;
       }
       p{
-          text-align:justify;
+          text-align:center;
           font-size: 1rem;
           line-height: 1.8rem;
           letter-spacing: 0.1rem;
+          margin-left:.5rem;
       }
       ${imageZoomEffect};
       .image{

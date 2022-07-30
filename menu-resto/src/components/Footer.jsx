@@ -3,7 +3,7 @@ import styled from "styled-components";
 import foodYummy from '../assets/emulsify04.svg';
 import { AiFillInstagram } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
-import { FaFacebookF, FaGoodreads } from "react-icons/fa";
+import { FaFacebookF} from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
 
 export default function Footer() {

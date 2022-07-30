@@ -76,4 +76,22 @@ border-radius:5rem;
     }
   }
 }
+
+@media screen and (min-width: 260px) and (max-width: 1080px) {
+  /* display: none; */
+  .content {
+    h1 {
+      width: 90%;
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 1.2em;
+      width: 90%;
+    }
+    button {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+    }
+  }
+}
 `;
