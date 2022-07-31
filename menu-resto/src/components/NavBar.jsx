@@ -33,24 +33,19 @@ export default function NavBar() {
             </a>
           </li>
           <li>
-            <a href="#services">
-              Our Services</a>
+            <a href="#services">Our Services</a>
           </li>
           <li>
-            <a href="#portfolio">
-              Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#testimonials">
-              Testimonials</a>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li>
-            <a href="#products">
-              Products</a>
+            <a href="#products">Products</a>
           </li>
           <li>
-            <a href="#newsletter">
-              Newsletter</a>
+            <a href="#newsletter">Newsletter</a>
           </li>
         </ul>
       </Nav>
@@ -62,24 +57,24 @@ export default function NavBar() {
         Home 
         </a>
         </li>
-        <li><a href= "#services" > 
+        <li><a href= "#services" onClick={() => setNavbarState(false)}> 
         Our Services  
         </a>
         </li>
-        <li><a href= "#portfolio" > 
+        <li><a href= "#portfolio" onClick={() => setNavbarState(false)} > 
         Portfolio 
         </a>
         </li>
-        <li><a href= "#testimonials" > 
+        <li><a href= "#testimonials" onClick={() => setNavbarState(false)}> 
         Testimonials 
         </a>
         </li>
-        <li><a href= "#products" > 
+        <li><a href= "#products" onClick={() => setNavbarState(false)} > 
         Products 
         </a>
         </li>
         <li>
-          <a href= "newsletter"> 
+          <a href= "newsletter" onClick={() => setNavbarState(false)}> 
         Newsletter
         </a>
         </li>
@@ -132,6 +127,7 @@ padding: 0 4vw;
     top: 0;
     .toggle {
       display: block;
+      z-index:12
     }
   }
   .links {
