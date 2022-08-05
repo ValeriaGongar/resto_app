@@ -1,20 +1,20 @@
 import React from 'react'
 import styled from "styled-components";
 import { TitleStyles } from './ReusableStyles';
-export default function Newsletter() {
+export default function Reservation() {
   return (
-    <Section id="newsletter">
+    <Section id="reservation">
       <div className="title">
         <h1>
-          <span> Suscribe</span>Newsletter
+          <span> Reserve</span>Here!
         </h1>
         <p>
-        Los alimentos tienen que consumirse preferiblemente de temporada y proceder del entorno en el que vivimos, como los productos autóctonos y típicos de cada zona.
+        Book in advance and live the experience of a completely personalized dinner. Allow us to guarantee the availability of space and delve into this new way of living the kitchen.
         </p>
       </div>
       <div className="container">
-        <input type="text" placeholder="Search for food "/>
-        <button>Search</button>
+        
+        <button>Reservation</button>
       </div>
     </Section>
   )

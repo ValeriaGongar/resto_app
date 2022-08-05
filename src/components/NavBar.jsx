@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
 import foodYummy from '../assets/emulsify04.svg'
+import { NavLink } from 'react-router-dom';
 import {GiHamburgerMenu} from "react-icons/gi";
 import {VscChromeClose} from "react-icons/vsc";
 export default function NavBar() {
@@ -28,9 +29,10 @@ export default function NavBar() {
     </div>
     <ul className="links">
           <li>
-            <a href="#home" className="active">
+            <NavLink
+             to="#home" className="active">
               Home
-            </a>
+            </NavLink>
           </li>
           <li>
             <a href="#services">Our Services</a>
@@ -45,7 +47,7 @@ export default function NavBar() {
             <a href="#products">Products</a>
           </li>
           <li>
-            <a href="#newsletter">Newsletter</a>
+            <a href="#reservation">Reservations</a>
           </li>
         </ul>
       </Nav>
@@ -74,8 +76,8 @@ export default function NavBar() {
         </a>
         </li>
         <li>
-          <a href= "newsletter" onClick={() => setNavbarState(false)}> 
-        Newsletter
+          <a href= "#reservation" onClick={() => setNavbarState(false)}> 
+        Reservations
         </a>
         </li>
     </ul>
